@@ -1,0 +1,78 @@
+# Dependencias de Node.js
+/node_modules
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+
+# Dependencias de PHP (Laravel)
+/vendor
+composer.lock
+
+# Entorno y configuraciones sensibles
+.env
+.env.backup
+.env.production
+.env.*
+
+# Archivos de compilación y caché
+/storage/*.key
+/storage/pail
+/storage/*
+/bootstrap/ssr
+/bootstrap/cache/
+/public/storage
+/public/hot
+/public/vendor
+/public/build
+/.idea
+/.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+/pids/
+/logs/
+/tmp/
+/cache/
+
+# Archivos de Laravel específicos
+*.sqlite
+*.sqlite3
+Homestead.yaml
+Homestead.json
+valet/
+artisan
+server.php
+
+/.phpunit.cache
+
+# Archivos de construcción
+dist/
+build/
+public/build/
+*.log
+
+# Git ignore para IDEs
+*.iml
+*.sublime-workspace
+*.sublime-project
+
+# Ignorar exportaciones de Laravel
+/storage/oauth-private.key
+/storage/oauth-public.key
+/storage/framework/cache/data
+/storage/logs/laravel.log
+
+
+
+
+.phpactor.json
+.phpunit.result.cache
+npm-debug.log
+yarn-error.log
+/auth.json
+/.fleet
+
+/.nova
+/.vscode
+/.zed
