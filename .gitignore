@@ -23,7 +23,7 @@ composer.lock
 /storage/pail/*
 
 /bootstrap/ssr
-/bootstrap/cache/
+
 /public/storage
 /public/hot
 /public/vendor
