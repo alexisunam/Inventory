@@ -17,7 +17,11 @@ composer.lock
 # Archivos de compilación y caché
 /storage/*.key
 /storage/pail
-/storage/*
+/storage/app/*
+/storage/framework/*
+/storage/logs/*
+/storage/pail/*
+
 /bootstrap/ssr
 /bootstrap/cache/
 /public/storage
@@ -36,7 +40,7 @@ lerna-debug.log*
 /cache/
 
 # Archivos de Laravel específicos
-*.sqlite
+/database/*.sqlite
 *.sqlite3
 Homestead.yaml
 Homestead.json
