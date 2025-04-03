@@ -45,7 +45,6 @@ lerna-debug.log*
 Homestead.yaml
 Homestead.json
 valet/
-artisan
 server.php
 
 /.phpunit.cache
